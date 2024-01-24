@@ -313,7 +313,7 @@ li {
 
 .script {
     position: relative;
-    margin: 150px;
+    margin: 8%;
     margin-top: 200px;
     margin-bottom: 250px;
 }
@@ -676,6 +676,36 @@ li {
         width: 225px;
         margin: 15px;
     }
+
+    .spotify {
+        width: 500px;
+        height: 650px;
+    }
+
+    .script {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .spotify {
+        width: 325px;
+        height: 650px;
+    }
+
+    .slideshow-container {
+    width: 350px;
+    height:250px;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+    .slider-img {
+        height: 250px;
+        width: 300px;
+    }
 }
 
 
@@ -685,7 +715,7 @@ li {
     }
 }
 
-@media screen and (max-height: 500px) and (max-width: 858px) {
+@media screen and (max-height: 500px) and (max-width: 600px) {
     .nav-item {
         margin: 26px 0px;
     }
